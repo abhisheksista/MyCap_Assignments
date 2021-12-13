@@ -2,7 +2,8 @@
 import math
 x=float(input("Input the radius of the circle: "))
 y=(math.pi)*x*x
-print("The area of the circle with radius "+str(x)+" is: "+str(y))
+print("The area of the circle is: ")
+print(y)
 #task_2
 fn=input("Input the Filename: ")
 ext=fn.split(".")
